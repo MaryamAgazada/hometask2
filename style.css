@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.feature{
+    background-color:rgba(213, 184, 255,1);
+    color: blueviolet;
+    border-radius: 5px;
+    width: 4.5rem;
+    text-align: center;
+    margin: 10px;
+    padding: 3px;
+    
+}
+.card{
+ border: 1px solid white;
+background-color: white;
+border-radius: 1rem;
+height:350px;
+width: 350px;
+
+}
+.hero{
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    display: grid;
+place-items: center;
+}
+.card h1{
+   font-size: 24px;
+   text-align: center;
+   padding: 20px 0;
+}
+.card p{
+display: grid;
+place-items: center;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.learn-more{
+    border: 1px solid blueviolet;
+    color: white;
+    background-color:rgb(106, 49, 159);
+    padding: 10px;
+    border-radius: 5px;
+   padding-bottom: 10px;
+   width: 45%;
+   text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
+ margin-left:75px;
+
+}
+.learn-more:hover{
+    border: 1px solid blueviolet;
+    color: rgba(90, 34, 139);
+    background-color: white;
+    cursor: pointer;
+  
+}
